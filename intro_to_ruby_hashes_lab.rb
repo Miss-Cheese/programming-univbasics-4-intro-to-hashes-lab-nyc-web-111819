@@ -4,8 +4,9 @@ def new_hash
 end
 
 def my_hash
-  my_hash = {"favorite_food" => "cheese"}
+    another_hash = my_hash = {"favorite_food" => "cheese"}
   # my_hash
+  another_hash
 end
 
 def pioneer
