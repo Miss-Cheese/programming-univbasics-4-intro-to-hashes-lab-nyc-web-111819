@@ -5,7 +5,7 @@ end
 
 def my_hash
   my_hash = {"favorite_food" => "cheese"}
-  my_hash
+  # my_hash
 end
 
 def pioneer
