@@ -16,12 +16,10 @@ def id_generator
     }
 end
 
-# def my_hash_creator(key, value)
-#   key = "name"
-#   value = "Grace Hopper"
-# end
-#
-# my_hash_creator(key, value)
+def my_hash_creator(key, value)
+  {key => value}
+end
+
 
 def read_from_hash(hash, key)
   read_from_hash = {
