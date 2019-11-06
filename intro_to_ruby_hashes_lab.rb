@@ -22,14 +22,10 @@ end
 
 
 def read_from_hash(hash, key)
-  read_from_hash = {
-    :name => "Steve",
-    "name" => "Tzvi"
-  }
-
+  hash[key]
 end
 
-read_from_hash("Steve","name")
+
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
